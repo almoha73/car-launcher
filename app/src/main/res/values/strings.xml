@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cockpit</string>
+    <string name="notification_listener_label">Cockpit — commandes média et lecture des messages</string>
+    <string name="tile_label">Cockpit</string>
+</resources>

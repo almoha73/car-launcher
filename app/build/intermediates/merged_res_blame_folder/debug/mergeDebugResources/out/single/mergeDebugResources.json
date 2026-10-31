@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "org.almoha.cockpit.app-debug-37:/drawable_ic_tile.xml.flat",
+        "source": "org.almoha.cockpit.app-main-39:/drawable/ic_tile.xml"
+    },
+    {
+        "merged": "org.almoha.cockpit.app-debug-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.almoha.cockpit.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.almoha.cockpit.app-debug-37:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "org.almoha.cockpit.app-main-39:/drawable/ic_launcher_foreground.xml"
+    }
+]

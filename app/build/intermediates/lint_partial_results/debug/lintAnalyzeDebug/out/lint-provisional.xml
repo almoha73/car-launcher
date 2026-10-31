@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.0" type="conditional_incidents">
+
+    <incident
+        id="NotificationPermission"
+        severity="error"
+        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission">
+        <fix-data missing="android.permission.POST_NOTIFICATIONS"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/service/BluetoothReceiver.kt"
+            line="102"
+            column="13"
+            startOffset="3569"
+            endLine="102"
+            endColumn="90"
+            endOffset="3646"/>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/data/AppsRepository.kt"
+            line="52"
+            column="27"
+            startOffset="1938"
+            endLine="52"
+            endColumn="48"
+            endOffset="1959"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+            line="57"
+            column="24"
+            startOffset="2436"
+            endLine="57"
+            endColumn="39"
+            endOffset="2451"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+</incidents>

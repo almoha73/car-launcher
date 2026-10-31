@@ -1,0 +1,263 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.almoha.cockpit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:6:5-69
+12-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:6:22-66
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:7:5-72
+13-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:7:22-69
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:8:5-81
+14-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:9:5-79
+15-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:10:5-77
+16-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:11:5-76
+17-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:11:22-73
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:12:5-66
+18-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:12:22-63
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:13:5-71
+19-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:13:22-68
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:14:5-78
+20-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:14:22-75
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:15:5-77
+21-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:15:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+22-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:16:5-89
+22-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:16:22-86
+23    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+23-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:17:5-18:53
+23-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:17:22-74
+24
+25    <uses-feature
+25-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:20:5-88
+26        android:name="android.hardware.telephony"
+26-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:20:19-60
+27        android:required="false" />
+27-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:20:61-85
+28    <uses-feature
+28-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:21:5-89
+29        android:name="android.hardware.microphone"
+29-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:21:19-61
+30        android:required="false" />
+30-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:21:62-86
+31
+32    <queries>
+32-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:23:5-27:15
+33        <intent>
+33-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:24:9-26:18
+34            <action android:name="android.speech.RecognitionService" />
+34-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:25:13-72
+34-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:25:21-69
+35        </intent>
+36    </queries>
+37
+38    <permission
+38-->[androidx.core:core:1.16.0] /home/almoha/.gradle/caches/8.14.3/transforms/451d2af83d2e41f902b1bd865a7c4593/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+39        android:name="org.almoha.cockpit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.16.0] /home/almoha/.gradle/caches/8.14.3/transforms/451d2af83d2e41f902b1bd865a7c4593/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.16.0] /home/almoha/.gradle/caches/8.14.3/transforms/451d2af83d2e41f902b1bd865a7c4593/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="org.almoha.cockpit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.16.0] /home/almoha/.gradle/caches/8.14.3/transforms/451d2af83d2e41f902b1bd865a7c4593/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.16.0] /home/almoha/.gradle/caches/8.14.3/transforms/451d2af83d2e41f902b1bd865a7c4593/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+43
+44    <application
+44-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:29:5-88:19
+45        android:allowBackup="true"
+45-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:30:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.16.0] /home/almoha/.gradle/caches/8.14.3/transforms/451d2af83d2e41f902b1bd865a7c4593/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:icon="@mipmap/ic_launcher"
+49-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:31:9-43
+50        android:label="@string/app_name"
+50-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:32:9-41
+51        android:roundIcon="@mipmap/ic_launcher"
+51-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:33:9-48
+52        android:supportsRtl="true"
+52-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:34:9-35
+53        android:theme="@style/Theme.Cockpit" >
+53-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:35:9-45
+54        <activity
+54-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:37:9-47:20
+55            android:name="org.almoha.cockpit.MainActivity"
+55-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:38:13-41
+56            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|uiMode|density"
+56-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:42:13-102
+57            android:exported="true"
+57-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:39:13-36
+58            android:launchMode="singleTask"
+58-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:40:13-44
+59            android:resizeableActivity="true" >
+59-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:41:13-46
+60            <intent-filter>
+60-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:43:13-46:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:44:17-69
+61-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:44:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:45:17-77
+63-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:45:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <service
+67-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:49:9-57:19
+68            android:name="org.almoha.cockpit.media.CarNotificationListener"
+68-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:50:13-58
+69            android:exported="false"
+69-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:51:13-37
+70            android:label="@string/notification_listener_label"
+70-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:52:13-64
+71            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+71-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:53:13-87
+72            <intent-filter>
+72-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:54:13-56:29
+73                <action android:name="android.service.notification.NotificationListenerService" />
+73-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:55:17-99
+73-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:55:25-96
+74            </intent-filter>
+75        </service>
+76        <service
+76-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:59:9-68:19
+77            android:name="org.almoha.cockpit.service.CarModeTileService"
+77-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:60:13-55
+78            android:exported="true"
+78-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:61:13-36
+79            android:icon="@drawable/ic_tile"
+79-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:62:13-45
+80            android:label="@string/tile_label"
+80-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:63:13-47
+81            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+81-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:64:13-77
+82            <intent-filter>
+82-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:65:13-67:29
+83                <action android:name="android.service.quicksettings.action.QS_TILE" />
+83-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:66:17-87
+83-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:66:25-84
+84            </intent-filter>
+85        </service>
+86        <service
+86-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:70:9-77:19
+87            android:name="org.almoha.cockpit.service.FloatingCockpitService"
+87-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:71:13-59
+88            android:exported="false"
+88-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:72:13-37
+89            android:foregroundServiceType="specialUse" >
+89-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:73:13-55
+90            <property
+90-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:74:13-76:104
+91                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+91-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:75:17-76
+92                android:value="Bandeau de contrôle média et appels affiché par-dessus la navigation" />
+92-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:76:17-101
+93        </service>
+94
+95        <receiver
+95-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:79:9-86:20
+96            android:name="org.almoha.cockpit.service.BluetoothReceiver"
+96-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:80:13-54
+97            android:exported="false" >
+97-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:81:13-37
+98            <intent-filter>
+98-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:82:13-85:29
+99                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+99-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:83:17-88
+99-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:83:25-85
+100                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+100-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:84:17-91
+100-->/home/almoha/Applications/car-launcher/app/src/main/AndroidManifest.xml:84:25-88
+101            </intent-filter>
+102        </receiver>
+103
+104        <provider
+104-->[androidx.emoji2:emoji2:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/c3329946bcf389f14140f0547185117d/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/c3329946bcf389f14140f0547185117d/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+106            android:authorities="org.almoha.cockpit.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/c3329946bcf389f14140f0547185117d/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/c3329946bcf389f14140f0547185117d/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/c3329946bcf389f14140f0547185117d/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/c3329946bcf389f14140f0547185117d/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/c3329946bcf389f14140f0547185117d/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/almoha/.gradle/caches/8.14.3/transforms/5ef5c2f3a2e404684f662b7cd361f964/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/almoha/.gradle/caches/8.14.3/transforms/5ef5c2f3a2e404684f662b7cd361f964/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+113                android:value="androidx.startup" />
+113-->[androidx.lifecycle:lifecycle-process:2.9.0] /home/almoha/.gradle/caches/8.14.3/transforms/5ef5c2f3a2e404684f662b7cd361f964/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
+114            <meta-data
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+116                android:value="androidx.startup" />
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+117        </provider>
+118
+119        <receiver
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+120            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+121            android:directBootAware="false"
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+122            android:enabled="true"
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+123            android:exported="true"
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+124            android:permission="android.permission.DUMP" >
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+126                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+129                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+132                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+135                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/almoha/.gradle/caches/8.14.3/transforms/fce8a35f0fc9641cbf6d09c6e927d99b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+136            </intent-filter>
+137        </receiver>
+138    </application>
+139
+140</manifest>

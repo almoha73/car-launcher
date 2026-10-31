@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.0" type="partial_results">
+    <map id="NotificationPermission">
+        <entry
+            name="source"
+            boolean="true"/>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.CALL (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+                            line="66"
+                            column="22"
+                            startOffset="2809"
+                            endLine="66"
+                            endColumn="53"
+                            endOffset="2840"/>
+                    </map>
+                    <map id="android.intent.action.DIAL (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+                            line="70"
+                            column="17"
+                            startOffset="3030"
+                            endLine="70"
+                            endColumn="48"
+                            endOffset="3061"/>
+                        <location id="1"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+                            line="76"
+                            column="22"
+                            startOffset="3194"
+                            endLine="76"
+                            endColumn="48"
+                            endOffset="3220"/>
+                    </map>
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+                            line="82"
+                            column="22"
+                            startOffset="3449"
+                            endLine="82"
+                            endColumn="87"
+                            endOffset="3514"/>
+                        <location id="1"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+                            line="95"
+                            column="17"
+                            startOffset="4081"
+                            endLine="95"
+                            endColumn="48"
+                            endOffset="4112"/>
+                    </map>
+                    <map id="android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+                            line="114"
+                            column="17"
+                            startOffset="4864"
+                            endLine="114"
+                            endColumn="71"
+                            endOffset="4918"/>
+                    </map>
+                    <map id="android.settings.NOTIFICATION_LISTENER_DETAIL_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+                            line="103"
+                            column="26"
+                            startOffset="4395"
+                            endLine="103"
+                            endColumn="87"
+                            endOffset="4456"/>
+                    </map>
+                    <map id="android.settings.action.MANAGE_OVERLAY_PERMISSION (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/org/almoha/cockpit/util/Launcher.kt"
+                            line="123"
+                            column="17"
+                            startOffset="5133"
+                            endLine="126"
+                            endColumn="18"
+                            endOffset="5286"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="org.almoha.cockpit.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="color[ic_launcher_background(U)],drawable[ic_tile(U),ic_launcher_foreground(U)],mipmap[ic_launcher(U)],string[app_name(U),notification_listener_label(U),tile_label(U)],style[Theme_Cockpit(U)];3^0^2;;;"/>
+    </map>
+
+</incidents>
